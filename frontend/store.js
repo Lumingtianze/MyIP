@@ -40,10 +40,10 @@ export const useMainStore = defineStore('main', {
     ipDBs: [
       { id: 1, text: 'IPinfo.io', url: '/api/ipinfo?ip={{ip}}', enabled: true },
       { id: 2, text: 'IP-API.com', url: '/api/ipapicom?ip={{ip}}&lang={{lang}}', enabled: true },
-      { id: 3, text: 'IPAPI.co', url: 'https://ipapi.co/{{ip}}/json/', enabled: true },
+      { id: 3, text: 'IPAPI.is', url: '/api/ipapiis?ip={{ip}}', enabled: true },
       { id: 4, text: 'IP.SB', url: '/api/ipsb?ip={{ip}}', enabled: true },
       { id: 5, text: 'IPinfo Lite', url: '/api/ipinfolite?ip={{ip}}', enabled: true },
-      { id: 6, text: 'IPAPI.is', url: '/api/ipapiis?ip={{ip}}', enabled: true },
+      
     ],
   }),
 

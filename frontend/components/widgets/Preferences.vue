@@ -255,7 +255,6 @@ const updateIPDBs = () => {
     if (configs.value && Object.keys(configs.value).length > 0) {
         store.updateIPDBs({ id: 1, enabled: configs.value.ipInfo });
         store.updateIPDBs({ id: 5, enabled: configs.value.ipInfo });
-        store.updateIPDBs({ id: 6, enabled: configs.value.ipapiis });
     }
 };
 
